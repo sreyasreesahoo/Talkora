@@ -1,0 +1,16 @@
+{
+  "name": "talkora",
+  "version": "1.0.0",
+  "description": "A real-time chat and video application that helps language learners connect, practice, and make friends while learning together.",
+  "license": "ISC",
+  "author": "Sreyasree Sahoo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/Talkora && npm run build --prefix frontend/Talkora",
+    "start": "npm run start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
